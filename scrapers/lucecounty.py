@@ -94,3 +94,5 @@ for i, table in enumerate(tables):
     print(table)
     # Optionally, convert table data to a CSV file
     table.to_csv(f"table_{i+1}.csv", index=False)
+
+    
